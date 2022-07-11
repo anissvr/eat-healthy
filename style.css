@@ -32,6 +32,14 @@
     margin-bottom: 30px;
 }
 
+.order-button {
+    text-decoration: none;
+    background-color: orangered;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 30px;
+}
+
 .right-half {
     width: 45%;
     margin: auto;
