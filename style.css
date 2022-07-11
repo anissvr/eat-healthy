@@ -52,7 +52,7 @@
 .middle-section {
     width: 98%;
     margin: auto;
-
+    height: 477px;
     background-image: url(img/7.png);
     background-size: cover;
     background-position: center;
@@ -75,8 +75,86 @@
 
 .right-side h2 {
     margin: 20px 0px;
+    text-transform: capitalize;
 }
 
 .right-side p {
     margin-bottom: 40px;
+    line-height: 1.6em;
+}
+
+.recipies-section {
+    width: 100%;
+    padding: 2% 4%;
+    margin: 50px 0px;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 1.7em;
+}
+
+.recipies-section h2 {
+    margin-bottom: 20px;
+}
+
+.recipies {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.recipies-box {
+    width: 40%;
+    margin: auto;
+    text-align: left;
+    box-shadow: 10px 10px 40px rgb(216, 214, 214);
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 40px;
+
+}
+
+.recipies-box img {
+    width: 100%;
+}
+
+.recipies-box h3 {
+    margin: 10px 0px;
+}
+
+.recipies-box p {
+    margin-bottom: 10px;
+}
+
+
+.fan-page {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    box-shadow: 10px 10px 40px rgb(188, 186, 186);
+    padding: 40px 20px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.marketing {
+    margin: auto;
+    text-align: center;
+}
+
+.marketing h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    color: rgb(164, 164, 164);
+}
+
+footer h3 {
+    text-transform: capitalize;
+    margin-bottom: 30px;
 }
