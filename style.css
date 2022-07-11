@@ -47,6 +47,36 @@
 
 .right-half img {
     width: 100%;
+}
 
+.middle-section {
+    width: 98%;
+    margin: auto;
 
+    background-image: url(img/7.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.left-side {
+    width: 40%;
+    margin-left: 9%;
+}
+
+.left-side img {
+    width: 60%;
+}
+
+.right-side {
+    width: 40%;
+    padding: 3%;
+}
+
+.right-side h2 {
+    margin: 20px 0px;
+}
+
+.right-side p {
+    margin-bottom: 40px;
 }
